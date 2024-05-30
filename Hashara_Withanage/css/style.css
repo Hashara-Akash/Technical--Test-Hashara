@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover {
+  color: rgba(20, 20, 156, 0.979);
+
+}
+
+.nav_title {
+  
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.title {
+ 
+  padding: 200px 10% 50px ;
+  width: 70vw;
+}
+
+.title h1 {
+  font-size: 64px;
+}
+
+.welcome-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  gap: 10%;
+  
+  
+}
+
+.welcome-text-left {
+  font-weight: 600;
+  width: 30%;
+  
+  
+}
+
+.welcome-text-right {
+  font-weight: 400;
+  margin: 0;
+  width: 60%;
+  
+}
+
+.video {
+  padding: 5% 5% 0 5%;
+
+}
+
+.what-we-do-section .section-top-bar {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 126px;
+}
+.what-we-do-section .section-top-bar .top-bar-left {
+  flex: 1;
+}
+.what-we-do-section .section-top-bar .top-bar-left .section-title {
+  font-size: 16px;
+  margin-top: 24px;
+}
+.what-we-do-section .section-top-bar .top-bar-right {
+  flex: 3;
+}
+.what-we-do-section .section-top-bar .section-description-title {
+  font-size: 48px;
+  font-weight: 400;
+}
+.what-we-do-section .what-we-do-card {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-bottom: 90px;
+  margin-top: 120px;
+}
+.what-we-do-section .what-we-do-card .card-left-side {
+  position: relative;
+}
+.what-we-do-section .what-we-do-card .card-left-side .card-title {
+  font-size: 32px;
+  margin-bottom: 47px;
+}
+.what-we-do-section .what-we-do-card .card-left-side .card-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  padding-right: 30px;
+}
+.what-we-do-section .what-we-do-card .card-left-side .card-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.what-we-do-section .what-we-do-card .card-left-side .card-tags .card-tag {
+  background-color: #f1f1f1;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #444444;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+.what-we-do-section .what-we-do-card .card-left-side .learn-more-btn {
+  text-decoration: underline;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.what-we-do-section .what-we-do-card .card-left-side .learn-more-btn .learn-more-icon {
+  margin-left: 20px;
+}
+.what-we-do-section .card-right-side {
+  position: relative;
+  padding-top: 50px;
+}
+.what-we-do-section .card-right-side .right-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 32px;
+}
+.what-we-do-section .card-right-side .card-images {
+  width: 800px;
+}
+.what-we-do-section .card-right-side .card-images .card-image {
+  width: 400px;
+  height: 300px;
+  margin-right: 12px;
+}
+.what-we-do-section .card-right-side .card-images .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.what-we-do-section .card-right-side .card-images .gradiant {
+  width: 253px;
+  height: 300px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, #ffffff);
+  position: absolute;
+  bottom: 24px;
+  z-index: 10000;
+  right: 0;
+}
+.what-we-do-section .card-right-side .card-images .slider-nav {
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+
+.about-us-section .section-top-bar {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 126px;
+}
+.about-us-section .section-top-bar .top-bar-left {
+  flex: 1;
+}
+.about-us-section .section-top-bar .top-bar-left .section-title {
+  margin-top: 24px;
+  font-size: 16px;
+}
+.about-us-section .section-top-bar .top-bar-right {
+  flex: 3;
+}
+.about-us-section .section-top-bar .section-description-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 52px;
+}
+.about-us-section .section-top-bar .section-description {
+  margin-bottom: 78px;
+}
+.about-us-section .section-top-bar .top-bar-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #001897;
+  border-radius: 31.5px;
+  padding: 18px 46px;
+}
+.about-us-section .section-top-bar .top-bar-btn a .contact-us-icon {
+  margin-left: 14px;
+}
+.about-us-section .about-us-banner {
+  background-image: url(../assert/Group\ 18.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.about-us-section .about-us-banner img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about-us-section .about-us-banner .container {
+  position: relative;
+}
+.about-us-section .about-us-banner .banner-btn {
+  position: absolute;
+  color: white;
+  right: 0;
+  bottom: 132px;
+  text-decoration: none;
+  border-radius: 31.5px;
+  border: 1px white solid;
+  padding: 18px 31px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.about-us-section .about-us-banner .banner-btn img {
+  margin-left: 19.5px;
+}
+
+.faq-section .section-top-bar {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 126px;
+}
+.faq-section .section-top-bar .top-bar-left {
+  flex: 1;
+}
+.faq-section .section-top-bar .top-bar-left .section-title {
+  margin-top: 24px;
+  font-size: 16px;
+}
+.faq-section .section-top-bar .top-bar-right {
+  flex: 3;
+}
+.faq-section .section-top-bar .section-description-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 52px;
+}
+.faq-section .section-top-bar .section-description {
+  margin-bottom: 78px;
+}
+
+@media (max-width: 1024px) {
+  .what-we-do-section .card-right-side .card-images {
+    width: 400px;
+  }
+  .what-we-do-section .card-right-side .card-images .card-image {
+    width: 80%;
+    height: 80%;
+    margin: 0;
+  }
+}
+@media (max-width: 376px) {
+  .what-we-do-section .section-top-bar {
+    display: block;
+  }
+  .what-we-do-section .section-top-bar .top-bar-left .section-title {
+    font-size: 14px;
+  }
+  .what-we-do-section .section-top-bar .section-description-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .what-we-do-section .what-we-do-card {
+    display: block;
+  }
+  .what-we-do-section .what-we-do-card .card-left-side {
+    position: relative;
+  }
+  .what-we-do-section .what-we-do-card .card-left-side .card-title {
+    font-size: 20px;
+  }
+  .what-we-do-section .card-right-side {
+    position: relative;
+    padding-top: 50px;
+  }
+  .what-we-do-section .card-right-side .card-images {
+    width: 325px;
+  }
+  .what-we-do-section .card-right-side .card-images .card-image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .what-we-do-section .card-right-side .card-images img {
+    width: 100%;
+    height: 100%;
+  }
+  .what-we-do-section .card-right-side .card-images .gradiant {
+    display: none;
+  }
+  .what-we-do-section .card-right-side .card-images .slider-nav {
+    display: none;
+  }
+  .about-us-section .section-top-bar {
+    display: block;
+  }
+  .about-us-section .section-top-bar .top-bar-left .section-title {
+    font-size: 14px;
+  }
+  .about-us-section .section-top-bar .section-description-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .about-us-section .section-top-bar .top-bar-btn {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .about-us-section .section-top-bar .top-bar-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #001897;
+    border-radius: 31.5px;
+    padding: 18px 46px;
+    font-size: 16px;
+  }
+  .about-us-section .section-top-bar .top-bar-btn a .contact-us-icon {
+    margin-left: 14px;
+  }
+  .faq-section .section-top-bar {
+    display: block;
+  }
+  .faq-section .section-top-bar .top-bar-left .section-title {
+    font-size: 14px;
+  }
+  .faq-section .section-top-bar .section-description-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=style.css.map */
